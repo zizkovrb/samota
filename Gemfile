@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 # Sweet oh sweet man
 gem "middleman"
-gem "bootstrap-sass"
 
 # Building blocks
 
