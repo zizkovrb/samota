@@ -17,6 +17,9 @@
   ],
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0",
-    "bootswatch-sass": "~3.2.0"
+    "bootswatch-sass": "~3.2.0",
+    "imagesloaded": "~3.1.8",
+    "fluidbox": "~1.4.3",
+    "eventEmitter": "~4.2.11"
   }
 }

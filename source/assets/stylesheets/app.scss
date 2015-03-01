@@ -4,6 +4,8 @@ $body-bg: #000;
 @import "../_vendor/bootswatch-sass/cosmo/variables";
 @import "../_vendor/bootstrap-sass-official/assets/stylesheets/bootstrap";
 @import "../_vendor/bootswatch-sass/cosmo/bootswatch";
+@import "../_vendor/fluidbox/css/fluidbox.scss";
+
 $body-bg: #000;
 $width: 1200px;
 
@@ -26,6 +28,10 @@ $width: 1200px;
   overflow: hidden;
 }
 
+.navbar-wrapper {
+  height: 50px;
+}
+
 .navbar.affix {
   width: 100%;
   z-index: 99;
@@ -35,6 +41,12 @@ $width: 1200px;
 section {
   padding-top: 50px;
 }
-section:first-of-type {
-  padding-top: 70px;
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
 }

@@ -1,0 +1,17 @@
+<% pics = [
+  'http://lorempixel.com/200/200/cats/',
+  'http://lorempixel.com/200/200/cats/',
+  'http://lorempixel.com/200/200/cats/',
+  'http://lorempixel.com/200/200/cats/'
+] %>
+<h1>Galerie</h1>
+
+<div class="row">
+  <% pics.each do |url| %>
+    <div class="col-xs-6 col-md-3">
+      <a href="<%= url %>" class="image thumbnail" data-fluidbox>
+          <img src="<%= url %>" alt="Micka" />
+      </a>
+    </div>
+  <% end %>
+</div>
