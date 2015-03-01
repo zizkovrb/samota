@@ -20,4 +20,12 @@ $(document).ready(function() {
   });
 
   $('.image').fluidbox();
+  $('.navbar-brand').on('click', function(e) {
+    e.preventDefault();
+
+    $('html, body').animate({scrollTop: 0}, 500, function() {
+      window.location.hash = ''; 
+    });
+
+  });
 });
