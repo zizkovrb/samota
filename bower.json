@@ -1,0 +1,22 @@
+{
+  "name": "samota",
+  "version": "0.0.0",
+  "authors": [
+    "Josef Šimánek <josef.simanek@gmail.com>"
+  ],
+  "description": "pivečko",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/assets/_vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "bootswatch-sass": "~3.2.0"
+  }
+}

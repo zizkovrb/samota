@@ -1,0 +1,23 @@
+$body-bg: #000;
+
+@import "../_vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
+@import "../_vendor/bootswatch-sass/cosmo/variables";
+@import "../_vendor/bootstrap-sass-official/assets/stylesheets/bootstrap";
+@import "../_vendor/bootswatch-sass/cosmo/bootswatch";
+
+$body-bg: #000;
+$width: 1200px;
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: $width;
+}
+
+.hero {
+  height: 200px;
+  background-image: image-url("fakin-šenk.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
