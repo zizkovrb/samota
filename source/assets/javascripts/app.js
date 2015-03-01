@@ -1,6 +1,7 @@
 //=require ../_vendor/jquery/dist/jquery.js
 //=require ../_vendor/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js
 //=require ../_vendor/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js
+//=require ../_vendor/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js
 
 //=require ../_vendor/eventEmitter/EventEmitter.js
 //=require ../_vendor/imagesloaded/imagesloaded.js
