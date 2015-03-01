@@ -27,6 +27,8 @@ $width: 1200px;
 
 .navbar-wrapper {
   height: 50px;
+  position: relative;
+  z-index: 9999;
 }
 
 .navbar.affix {
@@ -39,15 +41,6 @@ section {
   padding-top: 50px;
 }
 
-#imagelightbox
-{
-    position: fixed;
-    z-index: 9999;
- 
-    -ms-touch-action: none;
-    touch-action: none;
-}
-
 hr {
   border-top: 1px solid #000;
 }
@@ -57,4 +50,8 @@ footer {
   .karas {
     float: right;
   }
+}
+
+.pinkie {
+  color: red;
 }

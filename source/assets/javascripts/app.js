@@ -20,6 +20,7 @@ $(document).ready(function() {
   });
 
   $('.image').fluidbox();
+
   $('.navbar-brand').on('click', function(e) {
     e.preventDefault();
 
